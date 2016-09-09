@@ -2,7 +2,7 @@
     <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
         <h2>Agenda</h2>
     </div>
-
+    <% if @item[:agenda] %>
     <div class="timings">
         <% @item[:agenda].each_with_index do |agenda, i| %>
           <div class="row">
@@ -43,4 +43,11 @@
         <% end %>
       </div>
     </div>
+    <% else %>
+        <div class="row">
+             <h3>We will update it soon.</h3>
+             <br/>
+             <h3>Stay tuned!</h3>
+        </div>
+    <% end %>
 </section>
