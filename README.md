@@ -11,8 +11,8 @@ To start developing,
 * Clone this repository
 * Forget about whatever present in the root folder
 * Worry only about the `generator` folder
-* `cd generator` and do `bundle install`. You'll need RVM + Ruby 2.0
-* Make changes (see below folder structure). Mostly you'll be dealing with `generator/content`
+* Run `bundle install`. You'll need RVM + Ruby 2.0
+* Make changes (see below folder structure). Mostly you'll be dealing with `content`
 * Run `nanoc` to compile the website
 * Run `nanoc view` to start a server and browse to `localhost:3000`
 
@@ -20,13 +20,13 @@ For ease, there is a Guardfile. You can run `bundle exec guard`, it will keep wa
 
 # Folders of interest
 
-* `generator` - this is the main source code, rest are all generated source code that can be ignored
-* `generator/assets` - contains all assets
-* `generator/assets/app.sass` - contains the main stylesheet
-* `generator/assets/img/speakers` - contains speaker images
-* `generator/content` - content for each geek night
-* `generator/layouts` - layouts for default and archive versions
-* `generator/Rules` - routing rules
+* `content` - this is the main source code, rest are all generated source code that can be ignored
+* `content/assets` - contains all assets
+* `content/assets/app.sass` - contains the main stylesheet
+* `content/assets/img/speakers` - contains speaker images
+* `content/index.html` - content for current geek night
+* `layouts` - layouts for default and archive versions
+* `Rules` - routing rules
 
 # Front-End Development
 
