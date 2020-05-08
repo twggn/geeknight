@@ -3543,6 +3543,9 @@ section {
     #location img {
       border-radius: 0 0.5em 0.5em 0; } }
 
+section.online {
+  min-height: 50%; }
+
 #about {
   padding-top: 2em;
   color: #FFFFFF;

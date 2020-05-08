@@ -10,7 +10,7 @@ To start developing,
 
 * Clone this repository
 * Forget about whatever present in the root folder
-* Worry only about the `generator` folder
+* Worry only about the `content` folder
 * Run `bundle install`. You'll need RVM + Ruby 2.0
 * Make changes (see below folder structure). Mostly you'll be dealing with `content`
 * Run `nanoc` to compile the website
